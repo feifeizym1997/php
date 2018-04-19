@@ -27,7 +27,7 @@ if($height == "中"){
 	$p = "PI2";
 }
 $r=1;
-$area = constant("$p")*$r*$r;
+$area = constant($p)*$r*$r;
 echo $area;
 ?>
 
