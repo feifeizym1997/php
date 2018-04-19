@@ -33,3 +33,15 @@ echo $area;
 
 
 //第二种是使用constant()函数。它和直接使用常量名输出的效果是一样的，但函数可以动态的输出不同的常量，在使用上要灵活、方便，其语法格式如下：
+
+
+
+<?php 
+define("PI1",3.14);
+$p = "PI1";
+$is1 = defined($p);
+$is2 = defined("PI2");
+var_dump($is1);
+var_dump($is2);
+?>
+//defined 
