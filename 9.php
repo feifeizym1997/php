@@ -31,3 +31,57 @@ if($sex =="男")
 }	
 	echo $totalMoney;
 ?>
+
+
+
+<?php
+$num = rand(1,50);//获取1至50的随机数
+$info = "";//提示信息
+switch($num){
+  case 1  :
+		$info = "恭喜你！中了一等奖！";
+		break;
+case 2:	
+		$info = "恭喜你！中了二等奖！";
+		break;
+ 	case 3:
+		$info = "恭喜你！中了三等奖！";
+		break;
+	default:
+		$info = "很遗憾！你没有中奖！";
+}
+ echo $info; //输出是否中奖
+?>
+
+
+
+<?php
+$i =  1 ; //从第1圈开始跑
+do{  //跑10圈
+    echo "在跑第".$i."圈。";
+	$i++;
+}while($i<=10);
+?>
+
+
+<?php
+    //A例子
+	$num = 2;
+	$sum  = 10; 
+	while($num>3){
+		$sum = $sum  + 10;
+	}
+	echo "A例子的结果：".$sum."<br />";
+	//B例子
+	$num = 2;
+	$sum  = 10;			
+	do{
+		$sum = $sum  + 10;
+	}while($num>3);
+	echo "B例子的结果：".$sum."<br />";
+?>
+//while 和do while的区别很好区分的 就是 前者是 先判断条件是否为真 再走循环体 后者是先执行一次循环体在做判断条件是否为真 
+
+
+
+
