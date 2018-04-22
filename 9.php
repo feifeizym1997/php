@@ -159,3 +159,5 @@ foreach($students as $key =>$val)
 //上下换行 alt +shang;
 //航注释 ctrl+/
 //快注释 ctrl +shirft+/
+//复制当前行ctrl + window + alt + 下箭头才对
+//提示 alt+/
