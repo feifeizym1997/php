@@ -161,3 +161,7 @@ foreach($students as $key =>$val)
 //快注释 ctrl +shirft+/
 //复制当前行ctrl + window + alt + 下箭头才对
 //提示 alt+/
+//ctrl +f 查找
+//全文检索 ctrl +h
+//代码格式化 ctrl+shift+f
+//ctrl+shift+l  查找所有快節奏
